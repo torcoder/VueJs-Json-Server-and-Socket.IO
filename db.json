@@ -1,0 +1,156 @@
+{
+  "users": [
+    {
+      "username": "admin",
+      "fullname": "İbrahim Akçomak",
+      "password": "0b14c8cb51236e95480ee8594adb8b2a79d2b4b1",
+      "id": 1
+    },
+    {
+      "username": "admin2",
+      "fullname": "Damla Nur Özen",
+      "password": "0b14c8cb51236e95480ee8594adb8b2a79d2b4b1",
+      "id": 2
+    }
+  ],
+  "user_likes": [
+    {
+      "userId": 1,
+      "bookmarkId": 2,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 5,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 4,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 6,
+      "id": 4
+    }
+  ],
+  "user_bookmarks": [
+    {
+      "userId": 1,
+      "bookmarkId": 2,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 2,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 3,
+      "id": 3
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 4,
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "bookmarkId": 6,
+      "id": 5
+    }
+  ],
+  "bookmarks": [
+    {
+      "title": "AAAAAA",
+      "url": "BBBBBBBBBB",
+      "categoryId": 1,
+      "description": "Vue",
+      "userId": 1,
+      "created_at": "2022-01-13T06:10:50.541Z",
+      "id": 2
+    },
+    {
+      "title": "asdasdsad\"",
+      "url": "sadasdasd",
+      "categoryId": 2,
+      "description": "asdasdasdas",
+      "userId": 1,
+      "created_at": "2022-01-13T06:12:28.013Z",
+      "id": 3
+    },
+    {
+      "title": "asdas",
+      "url": "dadasd",
+      "categoryId": 3,
+      "description": "asdasdasdsad",
+      "userId": 1,
+      "created_at": "2022-01-13T06:41:24.517Z",
+      "id": 4
+    },
+    {
+      "title": "AAAA",
+      "url": "SASASDASDA",
+      "categoryId": 3,
+      "description": "SADASDASDAD",
+      "userId": 1,
+      "created_at": "2022-01-13T07:16:49.957Z",
+      "id": 5
+    },
+    {
+      "title": "sadasdasd",
+      "url": "asdasdasd",
+      "categoryId": 6,
+      "description": "asdasdasdas",
+      "userId": 2,
+      "created_at": "2022-01-13T07:31:04.253Z",
+      "id": 6
+    },
+    {
+      "title": "Vue Js Öğren",
+      "url": "http://konusarakogren",
+      "categoryId": 1,
+      "description": "Vue bir harika!",
+      "userId": 2,
+      "created_at": "2022-01-18T07:18:32.719Z",
+      "id": 7
+    },
+    {
+      "title": "React Js Öğren",
+      "url": "http://...",
+      "categoryId": 2,
+      "description": "React is Awesome!!!!",
+      "userId": 2,
+      "created_at": "2022-01-18T07:19:38.574Z",
+      "id": 8
+    }
+  ],
+  "categories": [
+    {
+      "name": "Vue.js",
+      "id": 1
+    },
+    {
+      "name": "React.js",
+      "id": 2
+    },
+    {
+      "name": "Angular.js",
+      "id": 3
+    },
+    {
+      "name": "Frontend",
+      "id": 4
+    },
+    {
+      "name": "Backend",
+      "id": 5
+    },
+    {
+      "name": "FullStack",
+      "id": 6
+    }
+  ]
+}
